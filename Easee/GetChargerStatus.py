@@ -17,7 +17,7 @@ response = requests.request("POST", url, data=payload, headers=headers)
 #print(response.text)
 
 
-url = "https://api.easee.cloud/api/chargers/EH315754/state"
+url = "https://api.easee.cloud/api/chargers/EHyournumber/state"
 
 headers = {
 	"Accept": "application/json",
