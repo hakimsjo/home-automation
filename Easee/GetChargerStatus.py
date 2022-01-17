@@ -20,7 +20,6 @@ d = json.loads(response.text)
 bearer = d.get("accessToken")
 #print(bearer)
 
-chargerID = "yourid"
 url = "https://api.easee.cloud/api/chargers/" + chargerID + "/state"
 
 headers = {
