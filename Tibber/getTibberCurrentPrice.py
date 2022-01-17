@@ -13,10 +13,9 @@ params = {"query":
 
 r = requests.get('https://api.tibber.com/v1-beta/gql', headers=headers, params=params)
 
+# Cleanup to flat dictionary
 j = r.text.replace('{"data":{"viewer":{"homes":[{"currentSubscription":{"priceInfo":{"current":{', ' ')
-
 j = j.replace('}}}}]}}}',' ')
-
 j = j.replace('"','')
 
 clipboard.set(j)
