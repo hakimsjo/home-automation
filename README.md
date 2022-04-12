@@ -7,4 +7,4 @@ In the Easee folder you will find a script that checks if a car is charging with
 
 ## Swedish
 
-Du hittar Apple Genvägar(shortcuts) som jag gjort för olika automationer i min blogg här: https://hakimsjo.blogspot.com
+Du hittar Apple Genvägar(shortcuts) som jag gjort för olika automationer här: https://github.com/hakimsjo/home_automation
